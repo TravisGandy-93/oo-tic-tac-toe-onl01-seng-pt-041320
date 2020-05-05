@@ -93,7 +93,6 @@ class TicTacToe
   def play 
           over?
             turn
-      end 
       if won?
           "Congratulations #{winner}!"
         elsif draw?
